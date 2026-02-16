@@ -1,4 +1,4 @@
--- ~/.config/nvim/lua/plugins.lua
+-- ~/.config/nvim/lua/packer.lua
 -- This file can be loaded by calling `lua require('plugins')` from your init.vim
 
 -- Only required if you have packer configured as `opt`
@@ -17,10 +17,9 @@ return require('packer').startup(function(use)
       }
   }
 
-use {
-  'nvim-treesitter/nvim-treesitter',
-  lazy = false,
-  build = ':TSUpdate'
-}
+  use {
+      'nvim-treesitter/nvim-treesitter',
+      run = ':TSUpdate'
+  }
 
 end)
