@@ -1,0 +1,18 @@
+# Plugin manager
+plugin/
+packer_compiled.lua
+
+# Plugins (zależnie jak masz skonfigurowane)
+# Jeśli masz pluginy w ~/.config/nvim/plugged lub ~/.config/nvim/pack
+plugged/
+pack/
+
+# Pliki tymczasowe
+*.swp
+*.swo
+*.bak
+.DS_Store
+
+# Historia i cache
+*.log
+cache/

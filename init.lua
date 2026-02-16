@@ -1,0 +1,3 @@
+require("zahark")
+print("Hello")
+
