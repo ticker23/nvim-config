@@ -1,4 +1,5 @@
 require("zahark.remap")
 require("zahark.packer")
 require("zahark.treesitter")
+require("zahark.lsp")
 print("hello from zahark")
